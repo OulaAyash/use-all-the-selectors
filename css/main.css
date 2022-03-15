@@ -1,0 +1,59 @@
+body {
+  background-color: #fdf6e3;
+}
+
+header, footer {
+font-size: 1.5rem;
+}
+
+nav ul {
+  font-family: sans-serif;
+}
+
+logo class {
+  text-transform: uppercase;
+}
+
+class wrapper {
+background-color: #eee8d5;
+}
+
+contents, favs, facts, types {
+  color: #93a1a1;
+}
+
+wrapper > .dfn {
+  background-color: #b58900;
+}
+
+strong + .dfn {
+  color: #fff;
+}
+
+a:no-highlight {
+  background-color: #719e07;
+}
+
+a link-rel="external" {
+  background-color: #2694d8;
+}
+
+ol first-li {
+  color: #719e47;
+}
+
+ol last-li {
+  color: #2aa198;
+}
+
+types-odd li {
+  background-color: #657ba3;
+}
+
+types-even li {
+  background-color: #586e75;
+}
+
+types-3rd li {
+  background-color: #d04b16;
+}
