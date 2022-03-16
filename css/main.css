@@ -26,11 +26,11 @@ body {
   color: #93a1a1;
 }
 
-.dfn {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
-.dfn > strong {
+.dfn :nth-child(2n) {
   color: #fff;
 }
 
@@ -38,11 +38,11 @@ body {
   box-sizing: inherit;
 }
 
-.link {
+.link, [rel="external"] {
   background-color: #2694d8;
 }
 
-a {
+a:not(.no-highlight) {
   background-color: #719e07;
 }
 
@@ -54,14 +54,14 @@ ol li:last-child {
   color: #2aa198;
 }
 
-.types > li {
+.types > li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-.types > li:target {
+.types > li:nth-child(2n) {
   background-color: #586e75;
 }
 
-.types li:nth-child(3) {
+.types li:nth-child(3n) {
   background-color: #d04b16;
 }
